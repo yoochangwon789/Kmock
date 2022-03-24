@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
         binding.lectureRecyclerView.adapter = lectureRecyclerViewAdapter
         binding.lectureRecyclerView.layoutManager = LinearLayoutManager(this)
 
-
+        viewModel.lectureListLiveData.observe(this) { lectures ->
+            lectureRecyclerViewAdapter.setLectureList(lectures)
+        }
     }
 }
