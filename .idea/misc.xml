@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kmock/app/src/main/res/drawable/background_radius_8.xml" value="0.4855" />
         <entry key="..\:/Kmock/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Kmock/app/src/main/res/layout/item_lecture.xml" value="0.5526041666666667" />
+        <entry key="..\:/Kmock/app/src/main/res/layout/lecture_item.xml" value="0.5526041666666667" />
+        <entry key="..\:/Kmock/app/src/main/res/layout/lecture_item_layout.xml" value="0.5" />
       </map>
     </option>
   </component>
