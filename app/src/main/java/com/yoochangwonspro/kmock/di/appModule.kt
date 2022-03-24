@@ -6,7 +6,10 @@ import com.yoochangwonspro.kmock.data.network.providerLecture
 import com.yoochangwonspro.kmock.data.network.providerLectureRetrofit
 import com.yoochangwonspro.kmock.data.repository.DefaultLectureRepository
 import com.yoochangwonspro.kmock.data.repository.LectureRepository
+import com.yoochangwonspro.kmock.domain.GetLectureListUseCase
+import com.yoochangwonspro.kmock.presentation.viewmodel.MainViewModel
 import kotlinx.coroutines.Dispatchers
+import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 val appModule = module {
@@ -23,4 +26,10 @@ val appModule = module {
 
     // Repository
     single<LectureRepository> { DefaultLectureRepository(get(),get()) }
+
+    // UseCase
+    single { GetLectureListUseCase(get()) }
+
+    // viewModel
+    viewModel { MainViewModel(get()) }
 }
