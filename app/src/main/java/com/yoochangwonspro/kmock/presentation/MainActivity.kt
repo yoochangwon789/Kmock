@@ -1,7 +1,8 @@
-package com.yoochangwonspro.kmock
+package com.yoochangwonspro.kmock.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.yoochangwonspro.kmock.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
