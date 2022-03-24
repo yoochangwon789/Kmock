@@ -1,4 +1,4 @@
-package com.yoochangwonspro.kmock.data.model.network
+package com.yoochangwonspro.kmock.data.network
 
 import com.google.gson.FieldNamingPolicy
 import com.google.gson.GsonBuilder
